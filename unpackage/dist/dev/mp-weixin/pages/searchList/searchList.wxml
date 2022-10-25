@@ -1,0 +1,1 @@
+<view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><view class="_p"><rich-text nodes="{{item.goods_name}}"></rich-text></view></block></view>

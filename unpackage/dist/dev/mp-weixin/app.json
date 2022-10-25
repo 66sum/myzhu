@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/cate/cate",
+    "pages/cart/cart",
+    "pages/my/my",
+    "pages/list1/list1",
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/searchList/searchList"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#d11f08",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#d11f08",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/tab_icons/home.png",
+        "selectedIconPath": "static/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/cate/cate",
+        "text": "分类",
+        "iconPath": "static/tab_icons/cate.png",
+        "selectedIconPath": "static/tab_icons/cate-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/tab_icons/cart.png",
+        "selectedIconPath": "static/tab_icons/cart-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tab_icons/my.png",
+        "selectedIconPath": "static/tab_icons/my-active.png"
+      }
+    ]
+  },
+  "unipush": {
+    "enable": false
+  },
+  "usingComponents": {
+    "van-sidebar": "/static/vant/sidebar/index",
+    "van-sidebar-item": "/static/vant/sidebar-item/index",
+    "van-grid": "/static/vant/grid/index",
+    "van-grid-item": "/static/vant/grid-item/index",
+    "van-card": "/static/vant/card/index",
+    "van-goods-action": "/static/vant/goods-action/index",
+    "van-goods-action-icon": "/static/vant/goods-action-icon/index",
+    "van-goods-action-button": "/static/vant/goods-action-button/index",
+    "van-icon": "/static/vant/icon/index",
+    "van-nav-bar": "/static/vant/nav-bar/index",
+    "van-swipe-cell": "/static/vant/swipe-cell/index",
+    "van-stepper": "/static/vant/stepper/index",
+    "van-checkbox": "/static/vant/checkbox/index",
+    "van-checkbox-group": "/static/vant/checkbox-group/index",
+    "van-submit-bar": "/static/vant/submit-bar/index",
+    "van-tag": "/static/vant/tag/index"
+  }
+}
